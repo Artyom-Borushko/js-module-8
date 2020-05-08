@@ -1,0 +1,22 @@
+{
+  "name": "mobile-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mobile": "protractor test/config/protractor.conf.js",
+    "test": "wdio test/config/wdio.conf.js"
+  },
+  "dependencies": {
+    "protractor": "^5.4.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.9",
+    "@wdio/local-runner": "^6.1.9",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8"
+  }
+}

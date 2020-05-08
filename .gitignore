@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+reports/
+
+# VSC config
+.vscode
+
+# Coverage
+coverage
+
+# Reports
+reports/   
+
+# Log
+.log
